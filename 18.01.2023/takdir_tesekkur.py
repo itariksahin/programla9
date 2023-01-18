@@ -1,0 +1,25 @@
+print("9C sınıfı takdir teşekkür alma hesap programı")
+print("Ders ortlamalarınızı girerseniz belgenizi buluruz")
+bed=int(input("BEDEN DERSİ DÖNEM ORTALAMASI"))
+biy=int(input("BİYOLOJİ DERSİ DÖNEM ORTALAMASI"))
+bta=int(input("BİLGİSAYARLI TASARIM DERSİ DÖNEM ORTALAMASI"))
+btt=int(input("BİLİŞİM TEKNOLOJİLERİNİN TEMELLERİ DÖNEM ORTALAMASI"))
+cog=int(input("COĞRAFYA DERSİ DÖNEM ORTALAMASI"))
+din=int(input("DİN KÜLTÜRÜ AHLAK BİLGİSİ DERSİ DÖNEM ORTALAMASI"))
+fiz=int(input("FİZİK DERSİ DÖNEM ORTALAMASI"))
+ing=int(input("İNGİLİZCE DERSİ DÖNEM ORTALAMASI"))
+kim=int(input("KİMYA DERSİ DÖNEM ORTALAMASI"))
+mat=int(input("MATEMATİK DERSİ DÖNEM ORTALAMASI"))
+mge=int(input("MESLEKİ GELİŞİM ATÖLYESİ DERSİ DÖNEM ORTALAMASI"))
+prg=int(input("PROGRAMLAMA DERSİ DÖNEM ORTALAMASI"))
+std=int(input("SEÇMELİ TEMEL DİNİ BİLGİLER DERSİ DÖNEM ORTALAMASI"))
+tar=int(input("TARİH DERSİ DÖNEM ORTALAMASI"))
+ted=int(input("TÜRK DİLİ EDEBİYATI DERSİ DÖNEM ORTALAMASI"))
+ort=(bed+biy+bta+btt+cog+din+fiz+ing+kim+mat+mge+prg+std+tar+ted)/15
+print("ORTALAMAN =",ort,"\n")
+if ort<70 :
+    print("BELGE ALAMADIN AMA ÜZÜLME RAMAZANDA ALAMADI")
+if ort>=70 and ort<85:
+    print("TEŞEKKÜR BELGESİ ALDINIZ")
+if ort>=85 and ort<=100:
+    print("TAKDİR BELDESİ ALDINIZ")
